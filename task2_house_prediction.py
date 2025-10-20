@@ -7,10 +7,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error
 from sklearn.preprocessing import StandardScaler
 
-# For actual Kaggle dataset, use:
-# df = pd.read_csv('house_prices.csv')
-
-# Creating a realistic sample dataset
+# Creating a realistic sample datase
 np.random.seed(42)
 n_samples = 500
 
@@ -220,5 +217,6 @@ for i, (idx, house) in enumerate(sample_houses.iterrows()):
     print(f"  Actual Price: ${sample_actual.iloc[i]:,.0f}")
     print(f"  Predicted Price: ${sample_predictions[i]:,.0f}")
     print(f"  Error: ${abs(sample_actual.iloc[i] - sample_predictions[i]):,.0f}\n")
+
 
 print("=" * 70)
