@@ -3,8 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 
-# Sample dataset creation (replace with your CSV file)
-# To use your own CSV: df = pd.read_csv('your_file.csv')
+
 data = {
     'Product': ['Laptop', 'Mouse', 'Keyboard', 'Monitor', 'Headphones', 
                 'Webcam', 'Speaker', 'Tablet', 'Phone', 'Charger'],
@@ -148,5 +147,6 @@ print("\n5. RECOMMENDATIONS:")
 print("   - Focus marketing on high-performing electronics")
 print("   - Improve ratings for lower-rated accessories")
 print("   - Consider bundling low-sales items with popular products")
+
 
 print("\n" + "=" * 60)
