@@ -1,7 +1,7 @@
 # CODEXINTERN Python Development Internship
 
 Name: Pavan Kalyan ID: cxipy2025091164
-Duration: September 10 to October 10, 2025
+Duration: September 10 to October 31, 2025
 
 ## What I Did
 
